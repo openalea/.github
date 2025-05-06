@@ -10,9 +10,10 @@ assignees: ''
 - [ ] read the [guidelines](https://openalea.readthedocs.io/en/latest/development/guidelines.html)
 - [ ] minimal README with (description, authors, installation instruction)
 - [ ] License file
-- [ ] pyproject.toml
-- [ ] meta.yaml
-- [ ] CI (.github/workflows/conda-package-build.yml)
-- [ ] tests
-- [ ] documentation
-- [ ] tutorials
+- [ ] Python Packaging (pyproject.toml)
+- [ ] Conda Packaging (meta.yaml)
+- [ ] GitHub CI (.github/workflows/conda-package-build.yml)
+- [ ] test (pytest, nbmake)
+- [ ] documentation (sphinx, rtfd)
+- [ ] tutorial (notebook, gallery)
+- [ ] Data management (share_data)
