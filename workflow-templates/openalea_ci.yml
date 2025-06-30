@@ -1,9 +1,4 @@
 name: OpenAlea CI
-description: >
-  Continuous Integration and Conda package builds for OpenAlea
-
-icon: package
-color: green 
 
 on:
   push:
