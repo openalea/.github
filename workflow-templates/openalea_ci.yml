@@ -23,8 +23,11 @@ on:
 
 jobs:
   build:
+    runs-on: ubuntu-latest
     steps:
-      run : echo "This is a placeholder workflow. Uncomment the next line and remove steps section."
+      - name: Placeholder step
+        run: echo "This is a placeholder workflow for openalea ci"
+    # To enable the actual ci, remove lines after 'build:' and uncomment below:
     # uses: openalea/action-build-publish-anaconda/.github/workflows/openalea_ci.yml@main
-    secrets:
-      anaconda_token: ${{ secrets.ANACONDA_TOKEN }}
+    # secrets:
+    #   anaconda_token: ${{ secrets.ANACONDA_TOKEN }}
