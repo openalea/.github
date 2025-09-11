@@ -1,0 +1,15 @@
+name: Sync Workflow Templates
+
+on:
+  workflow_dispatch: # allow manual trigger
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run repo-file-sync-action
+        uses: BetaHuhn/repo-file-sync-action@v2
+        with:
+          GH_PAT: ${{ secrets.ORG_BOT_TOKEN }}
