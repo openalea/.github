@@ -11,6 +11,3 @@ exclude:
 files:
   - source: workflow-templates/openalea_ci.yml
     dest: .github/workflows/openalea_ci.yml
-
-remove:
-  - ".github/workflows/conda-package-build.yml"
