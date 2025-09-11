@@ -4,6 +4,29 @@
 group:
   repos: |
     openalea/astk
+    openalea/caribu
+    openalea/plantgl
+    openalea/hydroroot
+    openalea/PyRATP
+    openalea/mtg
+    openalea/hydroshoot
+    openalea/StructureAnalysis
+    openalea/oalab
+    openalea/oawidgets
+    openalea/core
+    openalea/grapheditor
+    openalea/RSML
+    openalea/weberpenn
+    openalea/visualea
+    openalea/scipack
+    openalea/PyQGLViewer
+    openalea/metafspm
+    openalea/agroservices
+    openalea/Root-CyNAPS
+    openalea/rhizodep
+    openalea/adel
+    openalea/lpy
+    openalea/phenomenal
   files:
     - source: workflow-templates/
       dest: .github/workflows/
