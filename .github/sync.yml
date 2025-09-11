@@ -1,17 +1,13 @@
 # This file tells repo-file-sync-action which files to sync
 # from this .github repo to other repos in the org
 
-# List of repositories to sync to (all repos in org: "*")
-repos:
-  - "openalea/astk"
-exclude:
-  - "openalea/action-build-publish-anaconda"
-
-# Files or folders to sync (from this repo to target repos)
-files:
-  - source: workflow-templates/
-    dest: .github/workflows/
-    exclude: |
-      openalea_ci.properties.json
-      openalea_web.svg
-    deleteOrphaned: true
+group:
+  repos: |
+    openalea.astk
+  files:
+    - source: workflow-templates/
+      dest: .github/workflows/
+      exclude: |
+        openalea_ci.properties.json
+        openalea_web.svg
+      deleteOrphaned: true
