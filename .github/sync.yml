@@ -9,5 +9,9 @@ exclude:
 
 # Files or folders to sync (from this repo to target repos)
 files:
-  - source: workflow-templates/openalea_ci.yml
-    dest: .github/workflows/openalea_ci.yml
+  - source: workflow-templates/
+    dest: .github/workflows/
+    exclude: |
+      openalea_ci.properties.json
+      openalea_web.svg
+    deleteOrphaned: true
