@@ -3,7 +3,7 @@
 
 group:
   repos: |
-    openalea.astk
+    openalea/astk
   files:
     - source: workflow-templates/
       dest: .github/workflows/
