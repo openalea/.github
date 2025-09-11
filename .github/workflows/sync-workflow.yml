@@ -13,5 +13,5 @@ jobs:
         uses: BetaHuhn/repo-file-sync-action@v1
         with:
           GH_PAT: ${{ secrets.ORG_BOT_TOKEN }}
-          COMMIT_PREFIX: '[no ci]'
-          PR_BODY: 'openalea-bot: Update your ci workflow settings'
+          COMMIT_PREFIX: '[openalea-bot]'
+          PR_BODY: 'Automated update of your ci workflow settings with latest openalea ones'
