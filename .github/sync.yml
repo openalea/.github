@@ -27,6 +27,7 @@ group:
     openalea/adel
     openalea/lpy
     openalea/phenomenal
+    openalea/WheatFspm
   files:
     - source: workflow-templates/
       dest: .github/workflows/
